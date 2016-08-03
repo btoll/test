@@ -1,0 +1,21 @@
+{
+  "name": "test",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "prepublish": "git submodule init && git submodule update",
+    "config-update": "git submodule update --remote"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/btoll/test.git"
+  },
+  "author": "Benjamin Toll",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/btoll/test/issues"
+  },
+  "homepage": "https://github.com/btoll/test#readme"
+}
+
